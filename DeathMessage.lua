@@ -1,0 +1,1 @@
+print("Hello " .. UnitName("player") .. " from DeathMessage.lua")

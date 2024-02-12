@@ -1,0 +1,8 @@
+## Interface: 100205
+## Title: Death Messages
+## Version: 0.0.1
+## Notes: Shows a message and or sound when your character dies.
+## Author: Marbo
+## DefaultState: enabled
+
+DeathMessage.lua
