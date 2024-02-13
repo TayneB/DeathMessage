@@ -1,4 +1,7 @@
-local function counter(a, b, c)
-local ans = a * b + c
-return ans
+local function OnEvent(self, event, ...)
+  print("You Dead.")
 end
+
+local f = CreateFrame("Frame")
+f:RegisterEvent("PLAYER_DEAD")
+f:SetScript("OnEvent", OnEvent)
